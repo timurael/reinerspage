@@ -33,9 +33,9 @@ export function Navbar() {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-2xl font-bold text-stone-800">
-                Holz<span className="text-green-700">Werk</span>
+                Form <span className="text-green-700">und Design</span>
               </h1>
-              <p className="text-xs text-stone-500 uppercase tracking-wider">Deutsches Handwerk</p>
+              <p className="text-xs text-stone-500 uppercase tracking-wider">Ummendorf</p>
             </div>
           </Link>
 

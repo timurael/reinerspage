@@ -15,9 +15,9 @@ export function Footer() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">
-                  Holz<span className="text-green-400">Werk</span>
+                  Form <span className="text-green-400">und Design</span>
                 </h3>
-                <p className="text-xs text-stone-400 uppercase tracking-wider">Deutsches Handwerk</p>
+                <p className="text-xs text-stone-400 uppercase tracking-wider">Ummendorf</p>
               </div>
             </div>
             <p className="text-stone-300 mb-6 leading-relaxed">
@@ -83,9 +83,9 @@ export function Footer() {
               </div>
               
               <div className="space-y-3">
-                <a href="mailto:hello@woodcraft-sustainable.de" className="flex items-center gap-3 text-stone-300 hover:text-green-400 transition-colors">
+                <a href="mailto:info@form-und-design.de" className="flex items-center gap-3 text-stone-300 hover:text-green-400 transition-colors">
                   <Mail className="h-5 w-5 flex-shrink-0" />
-                  <span className="text-sm">hello@woodcraft-sustainable.de</span>
+                  <span className="text-sm">info@form-und-design.de</span>
                 </a>
                 <a href="tel:+4973518234567" className="flex items-center gap-3 text-stone-300 hover:text-green-400 transition-colors">
                   <Phone className="h-5 w-5 flex-shrink-0" />
@@ -139,7 +139,7 @@ export function Footer() {
         <div className="border-t border-stone-700 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-6 text-sm text-stone-400">
-              <span>© 2024 HolzWerk Deutsches Handwerk</span>
+              <span>© 2024 Form und Design</span>
               <Link href="/privacy" className="hover:text-green-400 transition-colors">Datenschutz</Link>
               <Link href="/terms" className="hover:text-green-400 transition-colors">AGB</Link>
               <Link href="/cookies" className="hover:text-green-400 transition-colors">Cookie-Richtlinie</Link>

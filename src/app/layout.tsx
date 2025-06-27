@@ -9,7 +9,7 @@ import { CartDrawer } from "@/components/cart/cart-drawer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Form & Design - Handwerk aus Ummendorf",
+  title: "Form und Design - Handwerk aus Ummendorf",
   description: "Von Holzpuzzles bis Lüftungstechnik – individuell für Sie gefertigt. CO₂-Laser-Schneidarbeiten und maßgefertigte Holzprodukte aus Deutschland.",
 }
 
