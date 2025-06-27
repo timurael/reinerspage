@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Nature-Inspired Primary Colors */
+    --forest-green: #2d5016;
+    --sage-green: #87a96b;
+    --moss-green: #606c38;
+    --earth-brown: #8b4513;
+    --clay-terracotta: #bc6c25;
+    --warm-cream: #fefae0;
+    --natural-beige: #dda15e;
+    
+    /* Wood & Natural Tones */
+    --oak-light: #d4a574;
+    --oak-medium: #a0703a;
+    --oak-dark: #6d4c20;
+    --walnut: #4a2c1d;
+    --birch: #f3ede4;
+    --cedar: #8b4726;
+    --pine: #4a5d23;
+    
+    /* Nature Neutrals */
+    --stone-dark: #283618;
+    --stone-medium: #606c38;
+    --stone-light: #a3b18a;
+    --cream-white: #fefae0;
+    --warm-gray: #8b8680;
+    
+    /* System Colors */
+    --background: 254 250 224;
+    --foreground: 40 54 24;
+    --card: 243 237 228;
+    --card-foreground: 40 54 24;
+    --popover: 243 237 228;
+    --popover-foreground: 40 54 24;
+    --primary: 96 108 56;
+    --primary-foreground: 254 250 224;
+    --secondary: 221 161 94;
+    --secondary-foreground: 40 54 24;
+    --muted: 163 177 138;
+    --muted-foreground: 96 108 56;
+    --accent: 188 108 37;
+    --accent-foreground: 254 250 224;
+    --destructive: 139 69 19;
+    --destructive-foreground: 254 250 224;
+    --border: 163 177 138;
+    --input: 243 237 228;
+    --ring: 96 108 56;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 20 20 20;
+    --foreground: 250 250 249;
+    --card: 74 44 29;
+    --card-foreground: 250 250 249;
+    --popover: 74 44 29;
+    --popover-foreground: 250 250 249;
+    --primary: 211 47 47;
+    --primary-foreground: 250 250 249;
+    --secondary: 109 76 32;
+    --secondary-foreground: 250 250 249;
+    --muted: 109 76 32;
+    --muted-foreground: 212 165 116;
+    --accent: 255 214 0;
+    --accent-foreground: 20 20 20;
+    --destructive: 211 47 47;
+    --destructive-foreground: 250 250 249;
+    --border: 160 112 58;
+    --input: 74 44 29;
+    --ring: 25 118 210;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Helvetica Neue', 'DIN', 'Futura', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Additional Bauhaus Utilities */
+@layer utilities {
+  /* Wood textures using safe colors */
+  .wood-grain-horizontal {
+    background-image: 
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        rgba(139, 69, 19, 0.15) 3px,
+        rgba(139, 69, 19, 0.15) 4px
+      );
+  }
+  
+  .wood-grain-vertical {
+    background-image: 
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 3px,
+        rgba(139, 69, 19, 0.15) 3px,
+        rgba(139, 69, 19, 0.15) 4px
+      );
+  }
+}
